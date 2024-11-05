@@ -1,0 +1,22 @@
+1) CSS stands for -
+
+Cascade style sheets
+Color and style sheets
+Cascading style sheets
+None of the above
+
+
+2) Which of the following is the correct syntax for referring the external style sheet?
+
+<style src = example.css>
+<style src = "example.css" >
+<stylesheet> example.css </stylesheet>
+<link rel="stylesheet" type="text/css" href="example.css">
+
+
+3) The property in CSS used to change the background color of an element is -
+
+bgcolor
+color
+background-color
+All of the above

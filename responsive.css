@@ -1,0 +1,123 @@
+  /*responsive*/
+  @media screen and (max-width: 480px) {
+    .container-css {
+        padding: 0 50px !important;
+      }
+      .section-heading{
+        margin: 30px 0px !important;
+    }
+
+    /*header*/
+
+    .header-top {
+        padding: 12px 20px !important;
+      }
+      .header-top-right ul li {
+        
+        margin-right: 5px !important;
+      }
+
+      .header-middle {
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+      .footer-one {
+        width: 100% !important;
+        float: left !important;
+        padding: 20px 0 !important;
+        overflow: hidden;
+      }
+      .footer-one form{
+        margin-bottom: 50px !important;
+       
+      }
+      .footer-one-extra-margin {
+        margin-left: 0px !important;
+      }
+      .footer-copyright-left{
+        width: 100% !important;
+        text-align: center !important;
+        margin-top: 20px;
+      }
+      .footer-copyright-right{
+        width: 100% !important;
+        text-align: center !important;
+        margin-bottom: 20px;
+      }
+
+
+      /*home page*/
+      .banner-left{
+        width: 100% !important;
+      }
+      .banner-left h2 {
+        font-size: 30px !important;
+      }
+      .banner-right {
+        width: 100% !important;
+      }
+      .banner-right img {
+        border-radius: 8px !important;
+      }
+      .banner{
+        padding: 15px 10px !important;
+      }
+      .banner {
+        overflow: hidden !important;
+        padding: 15px 10px !important;
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column-reverse !important;
+    }
+        .categories-row {
+            display: flex;
+            justify-content: space-evenly;
+            overflow: hidden !important;
+            flex-direction: column !important;
+            margin: 20px auto !important;
+        }
+   
+        .one-part {
+            width: 95% !important;
+        }
+        .one-part img{
+            border-radius: 7px;
+        }
+
+        /*visual learning page*/
+        .categories-para-define {
+            margin: 0px 30px 25px !important;
+             
+          }
+        .visual-part {
+            width: 47% !important;
+            height: 235px !important;
+            display: flex !important;
+            text-align: center;
+            align-items: center;
+            justify-content: space-around;
+            margin: 0px !important;
+            padding-top: 10px 0px 0px;
+            transition: 0.5s ease;
+          }
+
+
+          .categories-row {
+            display: flex !important;
+            justify-content: space-evenly !important;
+            
+            flex-direction: row !important;
+            flex-wrap: wrap !important;
+        }
+
+
+
+        /*cow videos*/
+        iframe {
+            width: 350px !important;
+            height: 300px !important;
+          }
+        .categories-row-videos .part iframe {
+            margin: 10px !important;
+          }
+  }
